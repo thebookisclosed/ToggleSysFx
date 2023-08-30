@@ -4,6 +4,8 @@ This tool offers a less cumbersome way to toggle audio processing effects for an
 This is the only way to disable effects for devices that cause the Windows Audio Service to crash upon connection — a rare issue happening on select Windows 11 devices where OEMs ship the *Invert Volume Mode Effect by Realtek (RtkInvVolMFX)* for capture/input/microphone devices and the device you connected uses an incompatible sampling rate.
 By disabling processing effects you retain the ability to use the microphone, you're no longer required to keep the problematic microphone disabled.
 
+[![Release downloads](https://img.shields.io/github/downloads/thebookisclosed/ToggleSysFx/total.svg)](https://GitHub.com/thebookisclosed/ToggleSysFx/releases/)
+
 # Usage
 1. Run ToggleSysFx.exe from the Command Prompt
 2. Type the number of the device you'd like to toggle this setting for
